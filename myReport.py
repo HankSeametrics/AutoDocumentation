@@ -22,5 +22,9 @@
 import docx
 import datetime
 
-class Report()
-    
+class Report():
+    Header="Issue Report:"
+    def __init__(self, Bench, User):
+        report = Document()
+        report.add_heading(self.Header)
+        
